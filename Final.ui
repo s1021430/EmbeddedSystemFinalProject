@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1611</width>
+    <height>833</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Final Project - 111618503(Presenter), 111618504, 111618515</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="OpenBMP">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>690</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open BMP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Inverse">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>690</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Inverse</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SingleThres">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>690</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Single Thres</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OtsuThres">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>690</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Otsu Thres</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BlobLabelling">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>690</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Blob Labelling</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlobCount">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>690</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Blob Count</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CharSegment">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>690</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Char_Segment</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MLPTraining">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>690</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MLP Training</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OCRJog">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>690</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OCR_Jog</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OCRALL">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>690</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OCR_ALL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SaveNetwork">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>690</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save Network</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LoadNetwork">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>690</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Network</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>1141</width>
+      <height>671</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CharLabel">
+    <property name="geometry">
+     <rect>
+      <x>1510</x>
+      <y>0</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Char text:</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="Char_Text_GraphicsView">
+    <property name="geometry">
+     <rect>
+      <x>1580</x>
+      <y>10</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TrainingString">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>50</y>
+      <width>181</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>graphicsView</zorder>
+   <zorder>OpenBMP</zorder>
+   <zorder>Inverse</zorder>
+   <zorder>SingleThres</zorder>
+   <zorder>OtsuThres</zorder>
+   <zorder>BlobLabelling</zorder>
+   <zorder>BlobCount</zorder>
+   <zorder>CharSegment</zorder>
+   <zorder>MLPTraining</zorder>
+   <zorder>OCRJog</zorder>
+   <zorder>OCRALL</zorder>
+   <zorder>SaveNetwork</zorder>
+   <zorder>LoadNetwork</zorder>
+   <zorder>CharLabel</zorder>
+   <zorder>Char_Text_GraphicsView</zorder>
+   <zorder>TrainingString</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1611</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
